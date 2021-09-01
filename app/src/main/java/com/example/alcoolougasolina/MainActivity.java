@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 txtResultado.setText("Resultado");
             }
+        } else {
+            txtResultado.setText("Resultado");
         }
     }
 }

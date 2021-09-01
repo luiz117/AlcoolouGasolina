@@ -22,14 +22,14 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.23000002"
+            app:layout_constraintVertical_bias="0.120000005"
             app:srcCompat="@drawable/logo" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="40dp"
             android:gravity="clip_horizontal"
             android:text="@string/Title"
             android:textSize="16sp"
