@@ -28,10 +28,14 @@ public class MainActivity extends AppCompatActivity {
     public void setResult(View view) {
 
         if (!entradaGasolina.getText().toString().isEmpty() && !entradaAlcool.getText().toString().isEmpty()
-                && (entradaGasolina.getText().toString() != "." && entradaAlcool.getText().toString() != ".")) {
+                && (entradaGasolina.getText().toString() != "." && entradaAlcool.getText().toString() != ".")
+                && (entradaGasolina.getText().toString() != null && entradaAlcool.getText().toString() != null)
+        ) {
 
             Double alcool = Double.valueOf(entradaAlcool.getText().toString());
             Double gasolina = Double.valueOf(entradaGasolina.getText().toString());
+
+
             if (gasolina > 0 && alcool > 0) {
 
                 if (alcool / gasolina < 0.7) {
